@@ -25,7 +25,7 @@ namespace UnitTest1
         {
             int length = 5;
             int width = 3;
-            int actual_perimeter = length + length + width;
+            int actual_perimeter = 2* length + 2* width;
             int expected_perimeter = 16;
             Assert::AreEqual(expected_perimeter, actual_perimeter);
 
